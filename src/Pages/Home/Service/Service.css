@@ -1,0 +1,28 @@
+.service{
+    border: 1px solid lightgrey;
+    border-radius: 15px;
+    padding: 15px;
+    text-align: center;
+}
+
+.service img{
+    border-radius: 15px;
+}
+
+.service h2{
+    color: #6db784;
+
+}
+
+.service-price{
+    font-size: 20px;
+}
+
+.service button{
+    background-color: purple;
+    padding: 15px 25px;
+    border: none;
+    border-radius: 25px;
+    color: whitesmoke;
+    font-size: 18px;
+}

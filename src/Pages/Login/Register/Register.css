@@ -4,10 +4,12 @@
     margin-top: 10px;
 }
 
-.form-container input{
+.form-container input:not([type=checkbox]){
     display: block;
     width: 100%;
     padding: 5px;
+    border-radius: 10px;
+    border: 1px solid lightgrey;
     margin-bottom: 15px;
     font-size: 18px;
 }

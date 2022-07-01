@@ -1,0 +1,18 @@
+hr {
+    border: none;
+    border-top: 2px solid gray;
+    color: gray;
+    overflow: visible;
+    text-align: center;
+    height: 5px;
+    font-size: 16px;
+    border-radius: 5px;
+}
+
+hr:after {
+    background: #fff;
+    content: 'OR';
+    padding: 0 4px;
+    position: relative;
+    top: -13px;
+}

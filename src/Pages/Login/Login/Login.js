@@ -8,6 +8,7 @@ import SocialLogin from "../SocialLogin/SocialLogin";
 import Loading from "../../Shared/Loading/Loading";
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
+import PageTitle from "../../Shared/PageTitle/PageTitle";
 
 
 const Login = () => {
@@ -61,6 +62,7 @@ const Login = () => {
 
   return (
     <div className="container w-50 mx-auto mt-5">
+      <PageTitle title="Login"></PageTitle>
       <SocialLogin></SocialLogin>
 
       <h1 className="text-primary text-center">Please login</h1>

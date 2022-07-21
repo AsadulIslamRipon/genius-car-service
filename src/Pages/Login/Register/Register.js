@@ -6,6 +6,7 @@ import auth from '../../../firebase.init';
 import './Register.css';
 import SocialLogin from '../SocialLogin/SocialLogin';
 import Loading from '../../Shared/Loading/Loading';
+import PageTitle from '../../Shared/PageTitle/PageTitle';
 
 const Register = () => {
     const navigate = useNavigate();
@@ -45,6 +46,7 @@ const Register = () => {
     }
     return (
         <div className='form-container'>
+            <PageTitle title="SignOut"></PageTitle>
             <SocialLogin></SocialLogin>
             <h1 className='text-primary text-center p-2'>Please Register</h1>
             <form onSubmit={handleRegister}>
